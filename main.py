@@ -1,5 +1,10 @@
 from random import randint
 
+"Algoritmo da cifra de Feistel Exercício 7 do laboratório de Segurança de Redes"
+'''
+O algoritmo utiliza a cifra de feistel com entrada de inteiros de 0 à 255 gerados
+pela função geradora de números inteiros aleatórios do python
+'''
 def encrypt(input, key):
     """
     Criptografa um bloco de 8 bits usando o algoritmo Feistel com dois estágios.
