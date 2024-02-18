@@ -96,4 +96,4 @@ if __name__ == "__main__":
     # Decriptografar
     decrypted = decrypt(encrypted, key)
     print("Bloco descriptografado:", decrypted)
-    print("Bloco criptografado (bin):", bin(decrypted))
+    print("Bloco descriptografado (bin):", bin(decrypted))
